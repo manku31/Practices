@@ -1,0 +1,25 @@
+/* src/DragAndDropList.css */
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .item {
+    padding: 16px;
+    margin: 4px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .dragging {
+    background-color: #d0d0ff; /* Change color when dragging */
+  }
+  
